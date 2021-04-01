@@ -1,5 +1,5 @@
 package entity
 type Song struct{
-	Title string `json:"Title"`
+	Title string `json:"title"`
 	Description string`json:"description"`
 }

@@ -1,7 +1,7 @@
 package main
 import (
 	"io"
-	"o"
+	"os"
 	"github.com/gin-gonic/gin"
 	"gitlab.com/pragmaticreviews/golang-gin-poc/middlewares"
 	"gitlab.com/pragmaticreviews/golang-gin-poc/controller"

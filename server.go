@@ -10,7 +10,9 @@ var(
 
 )
 func main(){
-	server := gin.Default()
+	server := gin.New()
+	server.Use(gin.Recovery(),middlewares.Logger())
+
 	server.GET("/songs",func(ctx *gin.Context){
 		ctx.JSON(200,songController.FindAll())
 	})

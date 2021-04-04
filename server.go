@@ -4,7 +4,7 @@ import (
 	"os"
 	
 	"github.com/gin-gonic/gin"
-	"gitlab.com/pragmaticreviews/golang-gin-poc/middlewares"
+	"gitlab.com/pragmaticreviews/golang-gin-poc/middlewares
 	"gitlab.com/pragmaticreviews/golang-gin-poc/controller"
 	"gitlab.com/pragmaticreviews/golang-gin-poc/service"
 )

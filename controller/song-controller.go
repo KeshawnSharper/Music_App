@@ -1,6 +1,6 @@
 package controller
 import {
-    import "github.com/gin-gonic/gin",
+    import "github.com/gin-gonic/gin,
     import "gitlab.com/pragmaticreviews/golang-gin-poc/entity"
 }
 type SongController interface {

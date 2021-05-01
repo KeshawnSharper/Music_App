@@ -1,6 +1,6 @@
 package main
 
-import "github.com/gin-gonic/gin"f
+import "github.com/gin-gonic/gin
 
 func main() {
 	router := gin.Default()
